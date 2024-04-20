@@ -17,7 +17,7 @@ Before running the application, make sure you have the following installed on yo
    
 2. Navigate to the project directory:
    ```bash
-   cd tasksMANAGER
+   cd tasksMANAGER/server
 
 3. Install dependencies:
    ```bash
@@ -25,7 +25,6 @@ Before running the application, make sure you have the following installed on yo
 
 4. Start the server:
    ```bash
-   cd tasksMANAGER/server
    npm start
 
 5. Configure connection.js in server folder according to your postgres configuration
