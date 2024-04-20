@@ -21,12 +21,12 @@ Before running the application, make sure you have the following installed on yo
 
 3. Install dependencies:
  ```bash
-   npm i
+ npm i
 
 4.Start the server:
 ```bash
-   cd tasksMANAGER/server
-   npm start
+ cd tasksMANAGER/server
+ npm start
 
 5. Configure connection.js in server folder according to your postgres configuration
 
