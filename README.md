@@ -1,4 +1,4 @@
-###### Task Manager Application
+## Task Manager Application
 
 This is a simple task manager application built with Node.js and Express.js. It allows users to manage their tasks by adding, updating, and deleting them. Tasks can also be organized by date and status.
 
@@ -29,4 +29,4 @@ Before running the application, make sure you have the following installed on yo
 
 5. Configure connection.js in server folder according to your postgres configuration
 
-6. Open index.html in any browswer I suggests to use GoLive server
+6. Open index.html in any browser I suggests to use GoLive server
