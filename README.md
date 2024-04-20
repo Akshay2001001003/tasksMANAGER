@@ -14,15 +14,16 @@ Before running the application, make sure you have the following installed on yo
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/Akshay2001001003/tasksMANAGER.git
-2.Navigate to the project directory:
+   
+2. Navigate to the project directory:
  ```bash
    cd tasksMANAGER
-3.Install dependencies:
+3. Install dependencies:
  ```bash
    npm i
 4.Start the server:
 ```bash
    cd tasksMANAGER/server
    npm start
-5.Configure connection.js in server folder according to your postgres configuration  
-6.Open index.html in any browswer I suggests to use GoLive server
+5. Configure connection.js in server folder according to your postgres configuration  
+6. Open index.html in any browswer I suggests to use GoLive server
