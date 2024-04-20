@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Task sheduler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="addTask.css" /> -->
+    <script src="practice.js"></script>
+    <script src="popup.js"></script>
+    <!-- <script src="connection.js"></script> -->
+
+    <!-- <script src="navigation.js"></script> -->
+    <!-- <script src="displayTask.js"></script>
+    <script src="addTask.js"></script> -->
+    <!-- <script src="addTask.js"></script> -->
+  </head>
+  <body>
+    <header class="header">Task Manager</header>
+    <div>
+        <div class="month-year">
+            <div><div class="year"></div></div>
+            <div><div class="month"></div></div>
+    </div>
+    <div class="head2">
+    <div class="btn"><button class="addTask">add task</button></div>
+        <div class="scrol">
+            <div class="prev"><button>&lt;</button></div>
+            <div class="next"><button>&gt;</button></div>
+        </div>
+    </div>
+            <div class="main-scr">
+                <div class="table">
+            <div>
+                <div class="dw">Sunday</div>
+                <div class="dw">Monday</div>
+                <div class="dw">Tuesday</div>
+                <div class="dw">Wednesday</div>
+                <div class="dw">Thurusday</div>
+                <div class="dw">Friday</div>
+                <div class="dw">Saturday</div>
+            </div>
+        <dv class="main">
+      <div class="d0 d"></div>
+      <div class="d1 d"></div>
+      <div class="d2 d"></div>
+      <div class="d3 d"></div>
+      <div class="d4 d"></div>
+      <div class="d5 d"></div>
+      <div class="d6 d"></div>
+    </div>
+    </div>
+</div>
+</dv>
+<!-- Popup screen for adding task -->
+<div id="addTaskPopup" class="popup">
+    <div class="popup-content">
+      <span class="close-popup">&times;</span>
+      <h2>Add Task</h2>
+      <label for="taskTitle">Task Title:</label><br>
+      <input type="text" id="taskTitle" name="taskTitle"><br>
+      <label for="taskDescription">Task Description:</label><br>
+      <textarea id="taskDescription" name="taskDescription"></textarea><br>
+      <label for="taskDate">Task Date:</label><br>
+      <input type="date" id="taskDate" name="taskDate"><br>
+      <button id="submitTask">Add Task</button>
+    </div>
+  </div>  
+  </body>
+</html>
