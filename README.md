@@ -16,17 +16,17 @@ Before running the application, make sure you have the following installed on yo
    git clone https://github.com/Akshay2001001003/tasksMANAGER.git
    
 2. Navigate to the project directory:
- ```bash
+   ```bash
    cd tasksMANAGER
 
 3. Install dependencies:
- ```bash
- npm i
+   ```bash
+   npm i
 
-4.Start the server:
-```bash
- cd tasksMANAGER/server
- npm start
+4. Start the server:
+   ```bash
+   cd tasksMANAGER/server
+   npm start
 
 5. Configure connection.js in server folder according to your postgres configuration
 
